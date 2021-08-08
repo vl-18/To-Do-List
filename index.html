@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lahari's ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        background-image: url('https://img.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_53876-58931.jpg?size=626&ext=jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>TO-DO LIST</h1>
+      <form class="" action="index.html" method="post">
+        <input type="text" placeholder="new task" name="task">
+        <label for="duedate"> &nbsp &nbsp &nbsp &nbsp &nbsp <b>Due Date:</b></label>
+        <input type="date" id="jsdate" name="duedate">
+        <button  type="submit"><strong>ADD </strong></button>
+      </form>
+      <div class="tasksBoard">
+        <ul>
+        </ul>
+        <a id="clear"><b>Clear All</b></a>
+      </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+  
+</html>
